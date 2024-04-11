@@ -97,5 +97,4 @@ const database = require('./database');
             });
         }
     }
-
-    module.exports = Conversion;
+    module.exports = ConversionsTime;
