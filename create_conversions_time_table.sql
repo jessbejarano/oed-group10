@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS conversions_time(
         bidirectional BOOLEAN NOT NULL, 
         start_time TIMESTAMP, --  TIMESTAMP '-infinity'
         end_time TIMESTAMP, --  TIMESTAMP 'infinity'
-        slope FLOAT, --this is the rate
+        slope FLOAT, -- this is the rate
         intercept FLOAT,
         note TEXT,
         CHECK (source_id != destination_id),
